@@ -135,3 +135,9 @@
     z-index: 9999;
     cursor: pointer;
 }
+.card-img-top{
+    height: 210px;
+}
+.card{
+    height: 350px;
+}

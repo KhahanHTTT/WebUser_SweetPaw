@@ -346,12 +346,14 @@
     padding: 10px;
     position: absolute;
     top: 24px;
-    left: 500px;
+    left: 515px;
     z-index: 99;
     width: 200px;
     box-shadow: 0 2px 8px 0 rgb(0 0 0 / 10%);
     max-height: 600px;
     overflow-y: auto;
+    border-radius: 10px;
+    background-color: #f2e4e4dd;
 }
 .has-mega:hover > .mega-content {
     display: block;

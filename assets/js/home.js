@@ -23,7 +23,7 @@ async function loadRecommendProducts() {
             <div>
               <img class="card-img-top" src="${p.url}" alt="${p.name}">
               <form class="hover-icon hidden-sm hidden-xs">
-                <a href="./pay.html?id=${p.id}" class="btn-add-to-cart" title="Mua ngay">
+                <a href="./ProductDetail.html?id=${p._id}" class="btn-add-to-cart" title="Mua ngay">
                   <i class="fas fa-cart-plus"></i>
                 </a>
 
@@ -95,7 +95,7 @@ async function loadNewProducts() {
             <div>
               <img class="card-img-top" src="${p.url}" alt="${p.name}">
               <form class="hover-icon hidden-sm hidden-xs">
-                <a href="./pay.html?id=${p.id}" class="btn-add-to-cart" title="Mua ngay">
+                <a href="./ProductDetail.html?id=${p._id}" class="btn-add-to-cart" title="Mua ngay">
                   <i class="fas fa-cart-plus"></i>
                 </a>
 
@@ -166,7 +166,7 @@ async function loadTopProducts() {
             <div>
               <img class="card-img-top" src="${p.url}" alt="${p.name}">
               <form class="hover-icon hidden-sm hidden-xs">
-                <a href="./pay.html?id=${p.id}" class="btn-add-to-cart" title="Mua ngay">
+                <a href="./ProductDetail.html?id=${p._id}" class="btn-add-to-cart" title="Mua ngay">
                   <i class="fas fa-cart-plus"></i>
                 </a>
 
