@@ -1,19 +1,6 @@
 import { getAllProducts, getProductById, getProductsByCategory  } from "/services/productApi.js";
 
 
-// function khonghienthidanhsach(id,cc){ 
-//     $(`#${cc}`).toggleClass("slow");
-//     if($(`#plus-${id}`).hasClass("undisplay")) {
-//         $(`#minus-${id}`).addClass("undisplay");
-//         $(`#plus-${id}`).addClass("display");
-//         $(`#plus-${id}`).removeClass("undisplay");
-//     }
-//     else {
-//         $(`#plus-${id}`).addClass("undisplay");
-//         $(`#minus-${id}`).addClass("display");
-//         $(`#minus-${id}`).removeClass("undisplay");
-//     }
-// }
 $(document).ready(function() {
     $('#filter').click(function(e){
         $('.filter-mobile').toggleClass('xyz');
@@ -114,16 +101,6 @@ function renderProducts() {
 // FETCH API + LOAD LẦN ĐẦU
 
 async function initProductPage() {
-  // try {
-  //   const res = await getAllProducts();
-  //   allProducts = res.data || [];
-
-  //   console.log("Danh sách sản phẩm:", allProducts);
-
-  //   renderProducts();
-  // } catch (err) {
-  //   console.error("Lỗi khi lấy sản phẩm:", err);
-  // }
   try {
     // Lấy category từ URL
     const url = new URL(window.location.href);
